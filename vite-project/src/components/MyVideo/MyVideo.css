@@ -1,0 +1,26 @@
+.ED-MyVideo{
+    height: 500px;
+    background-color: #18185e;
+
+    position: relative;
+    
+}
+.ED-MyVideo .my-video{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 350px;
+    left: 350px;
+    border-radius: 8px;
+    border: 1px solid #4d4d4d;
+    z-index:10;
+
+}
+
+.ED-MyVideo .my-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 90px;
+}

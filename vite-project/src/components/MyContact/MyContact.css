@@ -1,0 +1,27 @@
+.ED-Contact .my-contact {
+    width: 70%;
+    height: 250px;
+    background-color: #384bff;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 30px;
+    left: 15%;
+    bottom: 100px;
+    position: relative;
+    z-index: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ED-Contact .my-contact img {
+    height: 180px;
+    padding: 20px;
+}
+
+.ctaShape {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}

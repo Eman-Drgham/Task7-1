@@ -1,0 +1,61 @@
+.ED-PricingPlansCards{
+    height: 400PX;
+    width: 300PX;
+    border: 3px solid whitesmoke ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.PricingPlans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.top-content{
+    flex:0.2;
+    background-color: #18185e;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.regular{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin: 20px;
+    
+}
+.bottom-content{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color:black;
+    font-weight: 400;
+    gap: 10px;
+    
+}
+.bottom-content p{
+    margin-bottom: 10px;
+
+}
+.bottom-content span{
+    align-self: start;
+    
+}
+
+.btn-pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 5px 12px;
+    color:whitesmoke;
+    background-color:#18185e;
+    border: 1px solid #4D4D4D;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+.ED-Hero {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    margin-top: 60px;
+    border-radius: 40px;
+    background-color: #384bff;
+    position: relative;
+}
+
+
+.ED-Hero .info-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ED-Hero .info-left .btn1 {
+    color: white;
+    background-color: #384bff;
+    padding: 5px 15px;
+    width: 360px;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+
+.ED-Hero .info-left h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.ED-Hero .info-left .pp {
+    display: flex;
+    gap: 20px;
+    font-size: 10PX;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.ED-Hero .info-left .btn2 {
+    color: white;
+    background-color: #f98600;
+    margin: 0 10px;
+    padding: 5px 12px;
+    width: 150px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.ED-Hero .info-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.ED-Hero .info-right img:nth-child(1) {
+    position: absolute;
+    left: 30px;
+    top: 190px;
+    height: 400px;
+    z-index: 1;
+}
+
+.ED-Hero .info-right img:nth-child(2) {
+    position: relative;
+    width: 350px;
+    height: 540px;
+    top: 20px;
+    right: 60px;
+    z-index: 2;
+}

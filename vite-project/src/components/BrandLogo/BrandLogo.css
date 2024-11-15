@@ -1,0 +1,62 @@
+.ED-brand {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.ED-brand2{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ED-brand .heroshape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.ED-brand .brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    border-bottom: 0.2px solid #ccc;
+    gap: 30px;
+
+}
+.ED-brand2 .brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+
+    gap: 30px;
+}
+
+
+.ED-brand .brands img:nth-child(1) {
+    width: 15%;
+}
+
+.ED-brand .brands img:nth-child(2) {
+    width: 15%;
+}
+
+.ED-brand .brands img:nth-child(3) {
+    width: 15%;
+
+}
+
+.ED-brand .brands img:nth-child(4) {
+    width: 15%;
+
+}
+
+.ED-brand .brands img:nth-child(5) {
+    width: 15%;
+
+
+}

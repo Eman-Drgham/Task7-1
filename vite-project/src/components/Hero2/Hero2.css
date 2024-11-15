@@ -1,0 +1,26 @@
+.ED-hero2{
+    width: 100%;
+    height: 55vh;
+    background-image: url("/src/assets/imges/breadcrumb.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.about h3{
+    display: flex;
+    align-items:  center;
+}

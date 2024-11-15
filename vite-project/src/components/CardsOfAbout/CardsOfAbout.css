@@ -1,0 +1,30 @@
+.ED-CardsOfAbout {
+    width: 100%;
+    padding: 20px;
+    margin: 0 20px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ED-CardsOfAbout h5 {
+    display: flex;
+    align-items: center;
+    color: #384bff;
+}
+
+
+button {
+    border-radius: 16px;
+    margin: 0 10px;
+    padding: 5px 12px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #384bff;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}

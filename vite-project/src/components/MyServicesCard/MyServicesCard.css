@@ -1,0 +1,30 @@
+.ED-MyServicesCard{
+    margin: 20px;
+    background-color: #f0f0f0;
+    text-align: start;
+    padding: 12px 10px;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+.ED-MyServicesCard .Titile{
+margin-top: 15px;
+font-weight: 600;
+}
+
+.ED-MyServicesCard .descreption{
+    font-size: 10px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 20px;
+
+}
+
+.ED-MyServicesCard .btn-read{
+    border-radius: 20px ;
+    background-color: #c2c9d5;
+    border: 1px solid #fdfdfd;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+}

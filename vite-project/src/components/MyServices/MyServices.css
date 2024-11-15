@@ -1,0 +1,22 @@
+.ED-MyServices {
+    height: 500px;
+    margin: 10%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ED-MyServices h5 {
+    display: flex;
+    align-items: center;
+    color: #384bff;
+}
+
+.ED-MyServices .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}

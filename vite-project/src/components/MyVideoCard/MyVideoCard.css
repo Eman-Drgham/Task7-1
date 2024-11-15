@@ -1,0 +1,31 @@
+.ED-MyVideoCard {
+    margin: 20px;
+    background-color: #18185e;
+    text-align: start;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 85px;
+
+}
+
+.ED-MyVideoCard .icons-container {
+    font-size: 35px;
+    color: cornflowerblue;
+    gap: 5px;
+}
+
+.ED-MyVideoCard .title {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.ED-MyVideoCard .des {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+.ED-Contact {
+    height: 700px;
+    background-color: #e4e9f4;
+    position: relative;
+
+}
+
+.ED-Contact .my-contact .title {
+    color: whitesmoke;
+    gap: 15px;
+}
+
+.ED-Contact .my-contact .title h5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ED-Contact .my-contact button {
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1PX solid whitesmoke;
+    background-color: white;
+    margin: 0 10px;
+    padding: 5px 12px;
+    color: #4d4d4d;
+    cursor: pointer;
+}
+
+.ED-Contact .feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ED-Contact .feedback h5 {
+    color: #384bff;
+    display: flex;
+    align-items: center;
+}
+.mycontact2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap:20px;
+}
